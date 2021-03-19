@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Dog.destroy_all
+
+dog1 = Dog.create(name: "Clifford the Big Red Dog")
+dog2 = Dog.create(name: "Snoopy")
+
+
